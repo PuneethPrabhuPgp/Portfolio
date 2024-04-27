@@ -19,7 +19,7 @@ const Intro = () => {
 						<img
 							src="cloud.png"
 							alt="intro"
-							className="ml-[250%] w-[30%]"
+							className="ml-[225%] w-[30%]"
 						/>
 					</div>
 					<br />
