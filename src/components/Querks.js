@@ -3,8 +3,11 @@ import { QUERKS, SOMETIMES_I } from "../utils/Constants";
 
 const Querks = () => {
 	return (
-		<div className="m-auto">
-			<div className="text-5xl text-black mt-16">Querks.</div>
+		<div
+			className="text-center"
+			id="Querks"
+		>
+			<div className="text-5xl text-black mt-16 ">Querks.</div>
 			<div className="text-2xl mt-7">
 				{QUERKS.map((item) => (
 					<div

@@ -16,7 +16,7 @@ const Quotes = () => {
 
 	return (
 		<div className="bg-[#e55c4c] h-[150%]">
-			<div className="text-5xl text-white mt-16 p-7">Inspiring Quotes.</div>
+			<div className="text-5xl text-white mt-16 p-10 text-center">Inspiring Quotes.</div>
 			<div className=" flex mt-24 pb-28 relative  w-full text-center align-middle justify-center">
 				<button
 					className="px-[15%]"

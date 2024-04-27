@@ -3,7 +3,10 @@ import Contactme from "./Contactme";
 
 const About = () => {
 	return (
-		<div className="mt-16 flex">
+		<div
+			className="mt-16 flex"
+			id="About"
+		>
 			<img
 				alt="me"
 				src="puneeth.jpg"
