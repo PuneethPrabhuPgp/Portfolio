@@ -1,12 +1,12 @@
 const Footer = () => {
 	return (
-		<div className="bottom-14 absolute flex mx-24">
+		<div className="bottom-14 flex mx-24">
 			<div className="container text-center mx-20 px-5">
 				<span className="font-bold text-lg">No &copy; copyright issues.</span>
 				<br />
 				<div>Feel free to copy. If you need any help, ping me!</div>
 			</div>
-			<div className="container text-center mx-20 px-5 text-[#41b0bf] text-4xl font-bold font-serif">
+			<div className="container text-center mx-20 px-5 text-[#33ADBD] text-4xl font-bold font-serif">
 				<i>Puneeth Prabhu</i>
 			</div>
 			<div className="container text-center ml-20 px-5">

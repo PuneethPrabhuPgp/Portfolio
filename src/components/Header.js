@@ -4,7 +4,7 @@ import { HEADER_NAV } from "../utils/Constants";
 const Header = () => {
 	return (
 		<div>
-			<nav className="bg-[#41b0bf] p-6">
+			<nav className="bg-[#33ADBD] p-6">
 				<ul className="list-none flex justify-end text-3xl text-white ">
 					{HEADER_NAV.map((header) => (
 						<li
