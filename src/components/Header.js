@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import { HEADER_NAV } from "../utils/Constants";
 
 const Header = () => {

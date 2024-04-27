@@ -1,5 +1,4 @@
-import React, { useRef } from "react";
-import { INTRO_CAROUSEL } from "../utils/Constants";
+import React from "react";
 
 const Intro = () => {
 	return (

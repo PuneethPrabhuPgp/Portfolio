@@ -1,6 +1,6 @@
 const Footer = () => {
 	return (
-		<div className="bottom-14 flex mx-24">
+		<div className="bottom-14 flex mx-24 mt-24">
 			<div className="container text-center mx-20 px-5">
 				<span className="font-bold text-lg">No &copy; copyright issues.</span>
 				<br />
