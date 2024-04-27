@@ -17,11 +17,35 @@ const About = () => {
 				<div className="text-5xl text-black float-start ">About Me.</div>
 				<br />
 				<br />
-				<div className="text-2xl mt-7 text-gray-500">
+				<div className="text-2xl mt-7 text-gray-500 p-3">
 					<p>
-						Greetings! I am Puneeth Prabhu, a 26 year old Web developer living in Bengaluru, India.
-						I am a Computer Science Engineer, currently working with awesome folks at Mercedes Benz
-						R&D India.
+						Greetings! I am{" "}
+						<a
+							href="https://github.com/PuneethPrabhuPgp/"
+							target="_blank"
+							rel="noreferrer"
+							className="hover:text-purple-600"
+						>
+							Puneeth Prabhu
+						</a>
+						, a 26 year old Web developer living in{" "}
+						<a
+							href="https://www.google.com/maps/d/viewer?mid=1jjdOnB91E1dK8dHGVI3h8cHWE40&hl=en_US&ll=13.072006049550708%2C77.63024850000004&z=11"
+							target="_blank"
+							rel="noreferrer"
+							className="hover:text-purple-600"
+						>
+							Bengaluru, India.
+						</a>{" "}
+						I am a Computer Science Engineer, currently working with awesome folks at{" "}
+						<a
+							href="https://www.mbrdi.co.in/#/"
+							target="_blank"
+							rel="noreferrer"
+							className="hover:text-purple-600"
+						>
+							Mercedes Benz R&D India.
+						</a>
 					</p>
 					<br />
 					<p>
