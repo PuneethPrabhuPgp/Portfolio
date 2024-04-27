@@ -1,6 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { INTRO_CAROUSEL } from "../utils/Constants";
 
 const Intro = () => {
+	const [index, setIndex] = useState(0);
+
+	useEffect(() => {
+		let timer = setTimeout(() => {
+			if (index === INTRO_CAROUSEL.length - 1) {
+				setIndex(0);
+			} else {
+				setIndex((prevIndex) => prevIndex + 1);
+			}
+		}, 1000);
+		return () => {
+			clearTimeout(timer);
+		};
+	}, [index]);
+
 	return (
 		<div>
 			<section className="bg-[#33ADBD]">
@@ -29,9 +45,9 @@ const Intro = () => {
 						</span>
 						<br />
 					</div>
-					<div className="absolute top-[90%] text-white text-3xl text-center ml-[40%]">
+					<div className="absolute top-[90%] text-white text-4xl text-center mx-[35rem]">
 						<span>I am</span>
-						<span className="font-serif italic font-bold"> a web developer</span>
+						<span className="font-serif italic font-bold"> {INTRO_CAROUSEL[index]}</span>
 					</div>
 				</div>
 			</section>
