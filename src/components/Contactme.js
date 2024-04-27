@@ -4,7 +4,7 @@ import { CONNECT_ME } from "../utils/Constants";
 const Contactme = () => {
 	return (
 		<div>
-			<ul className="list-none w-96 flex flex-row mt-7 m-auto">
+			<ul className="list-none flex flex-row mt-7 m-auto w-[25%]">
 				{CONNECT_ME.map((item) => (
 					<li
 						key={item.type}

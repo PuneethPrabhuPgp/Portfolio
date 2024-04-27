@@ -18,8 +18,51 @@ export const CONNECT_ME = [
 		src: "twitter.png",
 	},
 	{
-		type: "Gmail",
+		type: "gmail",
 		ref: "mailto:puneethgprabhu@gmail.com",
 		src: "gmail.png",
+	},
+];
+
+export const SKILLS = [
+	{
+		type: "react",
+		src: "react.png",
+	},
+	{
+		type: "javascript",
+		src: "js.png",
+	},
+	{
+		type: "typescript",
+		src: "typescript.png",
+	},
+	{
+		type: "node",
+		src: "nodejs.png",
+	},
+	{
+		type: "express",
+		src: "express-js.png",
+	},
+	{
+		type: "html",
+		src: "html-5.png",
+	},
+	{
+		type: "mondoDb",
+		src: "mongodb.png",
+	},
+	{
+		type: "postgres",
+		src: "postgre.png",
+	},
+	{
+		type: "docker",
+		src: "docker.png",
+	},
+	{
+		type: "aws",
+		src: "aws.jpg",
 	},
 ];

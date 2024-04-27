@@ -12,7 +12,6 @@ const Footer = () => {
 			<div className="container text-center ml-20 px-5">
 				<span className="font-bold text-lg">You can find me everywhere</span>
 				<br />
-				<div>Feel free to copy. If you need any help, ping me!</div>
 			</div>
 		</div>
 	);

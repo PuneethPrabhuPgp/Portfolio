@@ -38,7 +38,7 @@ const About = () => {
 						in touch. <br />
 						Let's transform ideas into reality and make a meaningful impact together.
 					</p>
-					<Contactme />
+					<Contactme width="w-96" />
 				</div>
 			</div>
 		</div>
