@@ -90,11 +90,6 @@ export const QUOTES = [
 		by: "- Steve Jobs",
 	},
 	{
-		quote: `"Inspiration comes from within yourself. One has to be positive. When you're positive, good things happen."`,
-		by: "- Deep Roy",
-	},
-
-	{
 		quote: `"The future of advertising is the Internet."`,
 		by: "- Bill Gates",
 	},
