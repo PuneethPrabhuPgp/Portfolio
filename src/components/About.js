@@ -1,5 +1,5 @@
 import React from "react";
-import Contactme from "./Contactme";
+import { Link } from "react-scroll";
 
 const About = () => {
 	return (
@@ -65,7 +65,17 @@ const About = () => {
 						in touch. <br />
 						Let's transform ideas into reality and make a meaningful impact together.
 					</p>
-					<Contactme width="w-96" />
+
+					<button className="rounded-lg shadow-lg bg-[#33ADBD] text-white p-3 m-7">
+						<Link
+							activeClass="active"
+							smooth
+							spy
+							to="Connect with me"
+						>
+							Connect
+						</Link>
+					</button>
 				</div>
 			</div>
 		</div>
