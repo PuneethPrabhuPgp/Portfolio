@@ -20,7 +20,7 @@ const Intro = () => {
 	return (
 		<div>
 			<section className="bg-[#33ADBD]">
-				<div className="relative ">
+				<div className="relative">
 					<img
 						src="intro.gif"
 						alt="intro"
@@ -39,13 +39,13 @@ const Intro = () => {
 						/>
 					</div>
 					<br />
-					<div className="absolute top-[2%] text-white">
-						<span className="italic text text-white text-7xl font-bold font-serif text-center mx-[35rem]">
+					<div className="absolute top-[2%] text-white ">
+						<span className="italic text text-white text-6xl font-bold font-serif text-center px-72">
 							Puneeth G Prabhu
 						</span>
 						<br />
 					</div>
-					<div className="absolute top-[90%] text-white text-4xl text-center mx-[35rem]">
+					<div className="absolute top-[90%] text-white text-3xl text-center px-72">
 						<span>I am</span>
 						<span className="font-serif italic font-bold"> {INTRO_CAROUSEL[index]}</span>
 					</div>
