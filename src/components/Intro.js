@@ -41,7 +41,7 @@ const Intro = () => {
 					<br />
 					<div className="absolute top-[2%] text-white">
 						<span className="italic text text-white text-7xl font-bold font-serif text-center mx-[35rem]">
-							Puneeth Prabhu
+							Puneeth G Prabhu
 						</span>
 						<br />
 					</div>

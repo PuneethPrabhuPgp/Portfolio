@@ -26,7 +26,7 @@ const About = () => {
 							rel="noreferrer"
 							className="hover:text-purple-600"
 						>
-							Puneeth Prabhu
+							Puneeth G Prabhu
 						</a>
 						, a 26 year old Web developer living in{" "}
 						<a

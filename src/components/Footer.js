@@ -7,7 +7,7 @@ const Footer = () => {
 				<div>Feel free to copy. If you need any help, ping me!</div>
 			</div>
 			<div className="container text-center mx-20 px-5 text-[#33ADBD] text-4xl font-bold font-serif">
-				<i>Puneeth Prabhu</i>
+				<i>Puneeth G Prabhu</i>
 			</div>
 			<div className="container text-center ml-20 px-5">
 				<span className="font-bold text-lg">Made with ❤ in India</span>
